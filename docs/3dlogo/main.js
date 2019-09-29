@@ -21,9 +21,9 @@ let material2 = new THREE.MeshBasicMaterial({color: 'white'});
 let candle = new THREE.Mesh(candlegeometry, material2);
 
 // býr til logan
-var flamegeometry = new THREE.ConeGeometry( 0.3, 0.5, 32 );
-var material3 = new THREE.MeshBasicMaterial( {color: "yellow"} );
-var flame = new THREE.Mesh( flamegeometry, material3 );
+let flamegeometry = new THREE.ConeGeometry( 0.3, 0.5, 32 );
+let material3 = new THREE.MeshBasicMaterial( {color: "yellow"} );
+let flame = new THREE.Mesh( flamegeometry, material3 );
 
 // stilla staðsetningar á hlutunum
 flame.rotation.x = 3;
