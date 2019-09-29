@@ -1,6 +1,6 @@
 "use strict";
 
-var squareRotation = 0.0;
+let squareRotation = 0.0;
 
 main();
 
@@ -63,7 +63,7 @@ function main() {
   // objects we'll be drawing.
   const buffers = initBuffers(gl);
 
-  var then = 0;
+  let then = 0;
 
   // teiknar senuna 
   function render(now) {
